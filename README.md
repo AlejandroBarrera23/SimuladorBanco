@@ -26,7 +26,7 @@ Una aplicación móvil para Android desarrollada en Android Studio que permite a
 
 ## Instalación
 Puedes descargar el archivo APK desde el siguiente enlace:
-[Descargar APK](https://drive.google.com/file/d/1BQIDuLagvsUBRF_lNZme0zZ2s57pL73D/view?usp=sharing)
+[Descargar APK](https://drive.google.com/file/d/1GDi8gmIyRLfr3oys4aRjd3Qq5pbMkhij/view?usp=sharing)
 
 ### Detalles Adicionales:
 1. **Registro de usuarios:**
