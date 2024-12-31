@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/textViewTituloRetiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realizar Retiro"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextMontoRetiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto a retirar"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonRetirar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retirar"/>
+
+    <Button
+        android:id="@+id/buttonRegresarMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar al menú principal"/>
+
+</LinearLayout>

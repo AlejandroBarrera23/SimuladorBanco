@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/textViewTituloDeposito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realizar Depósito"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextMontoDeposito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto a depositar"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonDepositar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Depositar"/>
+
+    <Button
+        android:id="@+id/buttonRegresarMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar al menú principal"/>
+
+</LinearLayout>
